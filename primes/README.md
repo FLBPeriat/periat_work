@@ -14,3 +14,16 @@ n: the included limit
 
 As each prime appears in the map at the end, it works with O(π(n)) ~ O(n / log n) auxiliary space.
 
+
+# Result
+
+Output when running as __main__, for limit = 1000,0000:
+
+```
+Find prime numbers <= 1000000:
+78498 primes found by Périat method
+in time 0.445171594619751s
+78498 primes found by (simple) Atkin method
+in time 0.6866269111633301s
+Both method has same result: True
+```
