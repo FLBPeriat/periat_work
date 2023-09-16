@@ -35,7 +35,7 @@ def sieve_of_periat(included_limit: int) -> list[int]:
             primes.append(k)
             multiple = k << 1
             if multiple <= included_limit:
-                next_multiples[k << 1] = k
+                next_multiples[multiple] = k
     return primes
 
 
