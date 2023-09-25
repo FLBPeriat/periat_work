@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: periat_work
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Florent Louis Bernard
+    family-names: Périat
+    email: florent.periat@gmail.com
+repository-code: 'https://github.com/FLBPeriat/periat_work'
+abstract: F. Périat R&D
+keywords:
+  - algorithm
+  - mathematics
+  - algebra
+  - research
+license: GPL-3.0
