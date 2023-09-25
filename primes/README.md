@@ -12,6 +12,7 @@ A number is prime if and only if it is not detected as a key; it is associated w
 
 n: the included limit
 
+As each multiple appears once by each unique prime factor, time complexity is bounded by the sum of number of divisors from 2 to n which is proportional to O(n log n).
 As each prime appears in the map at the end, it works with O(π(n)) ~ O(n / log n) auxiliary space.
 
 
