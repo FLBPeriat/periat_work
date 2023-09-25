@@ -1,6 +1,6 @@
 """
 Date: 15.09.2023
-Author: F. L.B Périat
+Author: F. L.B. Périat
 Description: Generation of primes
 """
 
@@ -11,7 +11,7 @@ def sieve_of_periat(included_limit: int) -> list[int]:
     Get all prime numbers <= n = included_limit, by Périat method.
 
     Complexity:
-                * O(n) in time
+                * O(n log n) in time
                 * O(n / log n) in space
 
     :param included_limit: maximal value to check
